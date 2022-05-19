@@ -2,6 +2,7 @@
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Random;
 import java.util.Scanner;
 
 public class questao01 {
@@ -291,48 +292,38 @@ public class questao01 {
                 + "\ndevem ter pegado os livros e guardados em algum tipo de cofre."
                 + "\nGandalf passa por um corredor e ver quem tem uma espécie de porta falsa."
                 + "\nele chega perto e ver que tem um enigma");
-        System.out.println("Aperte enter para ver o enigma");
         System.out.println(" ");
         continua = sc.nextLine();
         boolean tcerto = false;
+        Random numero = new Random();
+
+        int numer = numero.nextInt(100), num;
 
         do {
-            System.out.println("Descubra qual o próximo número da sequência 8, 13, 21, 34, 55, 88 ...");
 
-            System.out.println("<A> = 198 ");
-            System.out.println("<B> = 143 ");
-            System.out.println("<C> = 138 ");
-            System.out.println("<D> = 152");
+            System.out.println("Hora do jogo, você terá que acerta qual é o numero entrem 0 e 100"
+                    + "\n Digite um numero de 1 a 100");
+            num = sc.nextInt();
 
-            menu = sc.next();
+            if (num == numer) {
 
-            switch (menu) {
+                System.out.println("Párabens, você ganhou o jogo!" + numer);
 
-                case "B":
-                case "b":
+                tcerto = true;
 
-                    tcerto = true;
-                    System.out.println("Respota certa, bom trabalho");
+            } else if (num < numer) {
 
-                    break;
+                System.out.println("Numero é maior");
 
-                case "c":
-                case "C":
+                
+            } else if (num > numer) {
+                System.out.println("Numero é menor");
 
-                case "a":
-                case "A":
-
-                case "d":
-                case "D":
-
-                    System.out.println("RESPOTA ERRADA!");
-
-                    break;
-                default:
-                    System.out.println("Respota invalida");
-
+            } else {
+                System.out.println("Gamer Over!"
+                        + "\n o numero era" + numer);
             }
-
+            
         } while (!tcerto);
 
         System.out.println("\n*--Gandalf acertou o engimar--*"
