@@ -8,10 +8,11 @@
  * @author danie
  */
 public class inicio {
+
     public static void main(String[] args) {
         menuJogo exibir = new menuJogo();
 
-exibir.menu();
+        exibir.menu();
     }
-    
+
 }
