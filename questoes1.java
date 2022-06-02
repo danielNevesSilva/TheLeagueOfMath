@@ -67,8 +67,6 @@ public class questao01 {
 
         System.out.println("Aperte enter para falar com Isaac");
         continua = sc.nextLine();
-        System.out.println("");
-        continua = sc.nextLine();
 
         System.out.println("Olá Sr Isaac, como vai as vendas?"
                 + "\n-Olá meu jovem, está indo bem, como posso te ajudar?"
@@ -123,8 +121,6 @@ public class questao01 {
                 + "\n ele vê que a vila tem alguns guardas que estão lá a mando do rei, fazendo contas erradas cobrando "
                 + "\n taxas abusivas de imposto, chegam dois guardas na venda do Isaac para cobrar e ele ver isso acontecendo e tenta agir.");
         System.out.println("aperte enter para ajudar Isaac ");
-        continua = sc.nextLine();
-        System.out.println("");
         continua = sc.nextLine();
 
         System.out.println("Os guardas falam para o Isaac que a cada maçã vendida ele deve pagar metade do valor da maçã para o rei."
@@ -269,8 +265,6 @@ public class questao01 {
                             + "\n Gandalf procura algo para distrair o guarda, ele encontra uma pedra."
                             + "\n Aperte enter para jogar a pedra");
                     continua = sc.nextLine();
-                    System.out.println("");
-                    continua = sc.nextLine();
                     System.out.println(" Guarda escuta o barulho e procura"
                             + "\n vê um vulto de um bicho passando e vai atrás"
                             + "\n entrada livre, porém com a porta trancada!"
@@ -322,8 +316,8 @@ public class questao01 {
             } else {
                 System.out.println("Gamer Over!"
                         + "\n o numero era" + numer);
-            }
-            
+            }            
+
         } while (!tcerto);
 
         System.out.println("\n*--Gandalf acertou o engimar--*"
@@ -333,8 +327,6 @@ public class questao01 {
                 + "\nA penas uma saída da biblioteca pela saida da frente, mas lembre-se a guarda na porta"
                 + "\n ENTÃO CUIDADO!!!");
         System.out.println("aperte enter para ajudar Isaac ");
-        continua = sc.nextLine();
-        System.out.println("");
         continua = sc.nextLine();
         System.out.println(" Gandalf vai em direção a porta, os guardas escutam um barulho de dentro da biblioteca"
                 + "\nPREPARE PARA A BATALHA!!!"
@@ -400,8 +392,6 @@ public class questao01 {
                 + "\n cuidado, os guardas estão atrás de você");
         System.out.println("Aperte enter para continuar");
         continua = sc.nextLine();
-        System.out.println(" ");
-        continua = sc.nextLine();
         System.out.println(" *--FEIRA DE ROUPAS--*"
                 + "\n Gandalf entra na feira de roupas e tem uma multidão de pessoas, hora de se camuflar. ");
 
@@ -452,8 +442,7 @@ public class questao01 {
                 + "\n muito interesante, mas não no será útil agora, quem sabe voltar aqui mais tarde."
                 + "\n espere, a algo que pode ser útil, uma capa preta que vai até o chão isso pode ajudar agora."
                 + "\n aperte enter para pegar a capa");
-        continua = sc.nextLine();
-        System.out.println("");
+       
         continua = sc.nextLine();
 
         System.out.println("*--Capa adquirida--*");
@@ -486,8 +475,6 @@ public class questao01 {
                 + "\n *--Gandalf congela--*");
         System.out.println("");
         continua = sc.nextLine();
-        System.out.println("");
-        continua = sc.nextLine();
         System.out.println("\n Gandalf pega o livro e diz então foi você que fez essa formula?"
                 + "\n akaria olha para o livro e perguta como Gandalf conseguiu aquele livro"
                 + "\n eu peguei na biblioteca no centro da vila, mas não é um lugar seguro - diz Gandalf"
@@ -509,8 +496,6 @@ public class questao01 {
                 + "\n Akaria fica com uma cara pensativa, porém decide ajudar Gandalf"
                 + "\n *eles passam horas estudando matemática*"
                 + "\n aperte enter para continuar");
-        continua = sc.nextLine();
-        System.out.println("");
         continua = sc.nextLine();
         System.out.println("\n\n *--AMANHACEU--*\n"
                 + "\n Gandalf estar confiante para enfrentar o rei"
@@ -546,8 +531,6 @@ public class questao01 {
                 + "\n com certeza são guardas disfarçados, mas estamos aqui para isso."
                 + "\n hora de usar o que aprendeu.");
         System.out.println("aperte enter  para continuar");
-        continua = sc.nextLine();
-        System.out.println("");
         continua = sc.nextLine();
 
         boolean acertou = false;
@@ -983,6 +966,7 @@ public class questao01 {
                 + "\n Gandalf faz uma escola de matemática chamada Khan Academy e irá leva o povo para a liberdade."
                 + ""
                 + "\n                            F i m");
-
+  introducao exibir = new introducao();
+            exibir.mododejogo();
     }
 }
