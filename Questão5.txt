@@ -1,7 +1,0 @@
-Ah 3 formas de entrar na Biblioteca
- a 1º é pela porta da frente que está com guardas
- a 2º é pela entrada de cargas  
-a 3º e ultima forma pelo telhado. 
-Por qual entrada você quer tentar?
-<A> = 2º 
-<B> = 3º

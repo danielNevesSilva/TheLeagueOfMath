@@ -22,16 +22,20 @@ public class Read {
 
     public static void main(String[] args) {
 
-        String path = "C:\\Users\\danie\\projetoIntegrador\\Questao4";
+        String path = "C:\\Users\\daniel.nsilva20\\ProjetoPi_\\Questao4.txt";
 
         try (BufferedReader br = new BufferedReader(new FileReader(path))) {
 
             String line = br.readLine();
             while (line != null) {
+                String [] vect = line.split(",");
                 
                 System.out.println(line);
-
+               
+            line = br.readLine();
                 }
+            
+            br.close();
             } catch (IOException e) {
             System.out.println("Erro: " + e.getMessage());
         }

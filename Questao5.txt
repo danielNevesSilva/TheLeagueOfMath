@@ -1,0 +1,18 @@
+Gandalf corre para fugir dos guardas.
+Gandalf corre para sua antiga casa e vê que sua casa tá cheia de guardas
+agora ele vai ter que achar um esconderijo, enquanto as coisas não volta ao normal.
+Gandalf pensa nas montanhas, mas antes ele vai ter que estudar matemática novamente
+nele percebeu que se faz contas e de certo vai usar poderes.
+no melhor lugar para aprender matemática é nos livros de matemática.
+hora de ir para biblioteca, pegar livros de estudo
+Gandalf vai sentido a biblioteca, mas ele percebe que a quantidade de guardas é grande no lugares da vila.
+A biblioteca fica no centro da vila perto da praça SENAC
+A porta da frente é perigosa de entrar, tente achar um outro jeito de entrar
+
+Ah 3 formas de entrar na Biblioteca
+ a 1º é pela porta da frente que está com guardas
+ a 2º é pela entrada de cargas  
+a 3º e ultima forma pelo telhado. 
+Por qual entrada você quer tentar?
+<A> = 2º 
+<B> = 3º
