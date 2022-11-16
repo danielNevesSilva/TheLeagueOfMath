@@ -1,0 +1,22 @@
+
+*--Gandalf acertou o engimar--*
+A porta se abre lentamente, dentro do quarto tem um livro, Gandalf pega o livro rapidamente.
+VOCÊ ADQUIRIU um livro, USE COM SABEDORIA
+hora de sair da biblioteca agora vai ser mais difícil sair
+A penas uma saída da biblioteca pela saida da frente, mas lembre-se a guarda na porta
+ ENTÃO CUIDADO!!!
+ Gandalf vai em direção a porta, os guardas escutam um barulho de dentro da biblioteca
+PREPARE PARA A BATALHA!!!
+Porta de entrada da biblioteca a aberta, os guardas estão te esperando
+Guardas 'quem é você, o que está fazendo com esse livro na mão, espere isso é um livro de matemática? 
+ passe para cá ou sofra as consequências'
+ Gandalf pega o livro e abre em uma página aleatória e vê uma fórmula de matemática 
+x = -b +- raiz b²-4*a*b
+              2*a
+ O poder de Bhaskara, está fórmula foi descoberta, mas ninguem a soube usá-la
+Calcule as raízes da equação x2 + 12x – 13 = 0 
+escolha a opção correta
+<A> 13 e 1
+<B> 13 e 9 
+<C> 1 e 18 
+<D> 1 e -13 

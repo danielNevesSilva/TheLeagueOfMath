@@ -1,0 +1,15 @@
+Olá Sr Isaac, como vai as vendas?
+-Olá meu jovem, está indo bem, como posso te ajudar?
+Estou com fome e sem dinheiro, poderia me da uma maçã?
+Claro, mas você tera que me responder uma pergunta antes.
+Ok, qual é a pergunta? 
+
+Dois corpos atraem-se com força proporcional às suas massas e 
+inversamente proporcional ao quadrado da distância 
+ que separa seus centros de gravidade
+Pensando nisso, escolha a alternativa que concorde com isso
+
+<A> Quando um fruto cai de uma arvore ele flutua ate cair no chão 
+<B> Ao chutar uma bola ela só vai para quando bater em algo 
+<C> tudo que sobe não desce 
+<D> Ao jogar um objeto para o alto ele retorna, pos a massa da terra é maior que o objeto 

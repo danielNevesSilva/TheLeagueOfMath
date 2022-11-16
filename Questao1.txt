@@ -1,0 +1,11 @@
+Bom Gandalf, até a próxima 
+Gandalf ao volta para vila viu que tem algo errado, as pessoas estão com cara de medo e se escondendo
+ ele vê que a vila tem alguns guardas que estão lá a mando do rei, fazendo contas erradas cobrando 
+ taxas abusivas de imposto, chegam dois guardas na venda do Isaac para cobrar e ele ver isso acontecendo e tenta agir.
+Os guardas falam para o Isaac que a cada maçã vendida ele deve pagar metade do valor da maçã para o rei.
+O Isaac vende a maçã a 10 dinheiros, Isaac vendeu 7 maçãs.
+quanto o Isaac deve pagar a eles?
+<A> 35 dinheiros 
+<B> 40 dinheiros 
+<C> 25 dinheiros 
+<D> 50 dinheiros 
