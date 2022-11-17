@@ -1,4 +1,7 @@
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.Scanner;
 
 /*
@@ -16,11 +19,23 @@ public class idealizado {
         Scanner sc = new Scanner(System.in);
         String continuar;
 
-        System.out.println("Este jogo foi idealizado e pensado pelo alunos do senac. São eles "
-                + "\n Daniel Neves \n Gabriel mota \n Gabriel sousa \n Gabriel Vieira \n Leonardo Viera "
-                + "\n Nosso grupo escolhemors a materia de Mate~ática pata tecnologia desenvolvimento da informação"
-                + "\n utilizamos como base Khan academy para elaborarmos algumas questões"
-                + " ");
+        String path = "C:\\Users\\danie\\ProjetoPi_\\Idealizado.txt";
+
+        try (BufferedReader br = new BufferedReader(new FileReader(path))) {
+
+            String line = br.readLine();
+            while (line != null) {
+                String[] vect = line.split(",");
+
+                System.out.println(line);
+
+                line = br.readLine();
+            }
+
+            br.close();
+        } catch (IOException e) {
+            System.out.println("Erro: " + e.getMessage());
+        }
 
         System.out.println("Aperte enter para volta ao Menu");
         menuJogo exibir = new menuJogo();

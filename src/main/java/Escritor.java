@@ -14,13 +14,13 @@ public class Escritor {
 
     public static void main(String[] args) {
         try {
-            FileOutputStream arquivo = new FileOutputStream("Menu.txt");
+            FileOutputStream arquivo = new FileOutputStream("Idealizado.txt");
             PrintWriter pr = new PrintWriter(arquivo);
-            pr.println(" *-- 1 - Introdução--*"
-                    + "\n*-- 2 - Jogar--*"
-                    + "\n*-- 3 - Creditos--*"
-                    + "\n*-- 4 - Sair--*"
-                    + "\nEscolha uma opção");
+            pr.println("Este jogo foi idealizado e pensado pelo alunos do senac. São eles "
+                    + "\n Daniel Neves \n Matheus Ribeiro \n Rafael Rasquinho \n Marcos vinicius \n Leonardo Freitas "
+                    + "\n Nosso grupo escolhemors a materia de Matematica para tecnologia desenvolvimento da informação"
+                    + "\n utilizamos como base Khan academy para elaborarmos algumas questões");
+            pr.println("Aperte enter para descobrir como jogar");
 
             pr.close();
 
