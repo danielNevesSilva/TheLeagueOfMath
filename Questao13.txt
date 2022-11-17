@@ -1,0 +1,6 @@
+Gandalf desvio do ataque, hora de contra atacar.
+ Simplifique.
+ Reescreva a expressão na forma 5n 5².5¹
+<A> 5²
+<B> 5¹ 
+<C> 5³

@@ -1,4 +1,7 @@
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.Scanner;
 
 public class menuJogo {
@@ -8,11 +11,24 @@ public class menuJogo {
 
         int opcao;
 
-        System.out.println("*-- 1 - Introdução--*"
-                + "\n*-- 2 - Jogar--*"
-                + "\n*-- 3 - Creditos--*"
-                + "\n*-- 4 - Sair--*");
-        System.out.println("Escolha uma opção");
+
+        String path = "C:\\Users\\danie\\ProjetoPi_\\Menu.txt";
+
+        try (BufferedReader br = new BufferedReader(new FileReader(path))) {
+
+            String line = br.readLine();
+            while (line != null) {
+                String[] vect = line.split(",");
+
+                System.out.println(line);
+
+                line = br.readLine();
+            }
+
+            br.close();
+        } catch (IOException e) {
+            System.out.println("Erro: " + e.getMessage());
+        }
 
         opcao = sc.nextInt();
 

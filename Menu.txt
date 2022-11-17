@@ -1,0 +1,5 @@
+ *-- 1 - Introdução--*
+*-- 2 - Jogar--*
+*-- 3 - Creditos--*
+*-- 4 - Sair--*
+Escolha uma opção

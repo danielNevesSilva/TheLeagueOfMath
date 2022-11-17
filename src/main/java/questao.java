@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
 
-public class questao01 {
+public class questao {
 
     private int vida;
 
@@ -18,11 +18,9 @@ public class questao01 {
         Scanner sc = new Scanner(System.in);
         String menu, continua;
 
-        String path = "C:\\Users\\daniel.nsilva20\\ProjetoPi_\\Questao1.txt";
-                //C:\Users\daniel.nsilva20\ProjetoPi_
-        Path caminho2 = Path.of("./Questao1.txt");
+        String path = "C:\\Users\\danie\\ProjetoPi_\\Menu.txt";
 
-        try ( BufferedReader br = new BufferedReader(new FileReader(caminho2.toAbsolutePath().toString()))) {
+        try (BufferedReader br = new BufferedReader(new FileReader(path))) {
 
             String line = br.readLine();
             while (line != null) {
@@ -38,7 +36,6 @@ public class questao01 {
             System.out.println("Erro: " + e.getMessage());
         }
 
-        System.out.println("Começa aqui");
         int vida = 5, khan = 2;
 
         boolean certo = false;
@@ -83,9 +80,9 @@ public class questao01 {
         System.out.println("Aperte enter para falar com Isaac");
         continua = sc.nextLine();
 
-        String path1 = "C:\\Users\\daniel.nsilva20\\ProjetoPi_\\Questao2.txt";
+        String path1 = "C:\\Users\\danie\\ProjetoPi_\\Questao2.txt";
 
-        try ( BufferedReader br = new BufferedReader(new FileReader(path1))) {
+        try (BufferedReader br = new BufferedReader(new FileReader(path1))) {
 
             String line = br.readLine();
             while (line != null) {
@@ -135,9 +132,9 @@ public class questao01 {
 
         }
 
-        String path2 = "C:\\Users\\daniel.nsilva20\\ProjetoPi_\\Questao3.txt";
+        String path2 = "C:\\Users\\danie\\ProjetoPi_\\Questao3.txt";
 
-        try ( BufferedReader br = new BufferedReader(new FileReader(path2))) {
+        try (BufferedReader br = new BufferedReader(new FileReader(path2))) {
 
             String line = br.readLine();
             while (line != null) {
@@ -185,9 +182,9 @@ public class questao01 {
         if (!certo) {
 
         }
-        String path3 = "C:\\Users\\daniel.nsilva20\\ProjetoPi_\\Questao4.txt";
+        String path3 = "C:\\Users\\danie\\ProjetoPi_\\Questao4.txt";
 
-        try ( BufferedReader br = new BufferedReader(new FileReader(path3))) {
+        try (BufferedReader br = new BufferedReader(new FileReader(path3))) {
 
             String line = br.readLine();
             while (line != null) {
@@ -245,9 +242,9 @@ public class questao01 {
 
         boolean tacerto = false;
 
-        String path4 = "C:\\Users\\daniel.nsilva20\\ProjetoPi_\\Questao5.txt";
+        String path4 = "C:\\Users\\danie\\ProjetoPi_\\Questao5.txt";
 
-        try ( BufferedReader br = new BufferedReader(new FileReader(path4))) {
+        try (BufferedReader br = new BufferedReader(new FileReader(path4))) {
 
             String line = br.readLine();
             while (line != null) {
@@ -300,9 +297,9 @@ public class questao01 {
 
         while (!tacerto);
 
-        String path5 = "C:\\Users\\daniel.nsilva20\\ProjetoPi_\\Questao6.txt";
+        String path5 = "C:\\Users\\danie\\ProjetoPi_\\Questao6.txt";
 
-        try ( BufferedReader br = new BufferedReader(new FileReader(path5))) {
+        try (BufferedReader br = new BufferedReader(new FileReader(path5))) {
 
             String line = br.readLine();
             while (line != null) {
@@ -353,10 +350,9 @@ public class questao01 {
         } while (!tcerto);
 
         System.out.println();
-        String path6
-                = "C:\\Users\\daniel.nsilva20\\ProjetoPi_\\Questao7.txt";
+        String path6 = "C:\\Users\\danie\\ProjetoPi_\\Questao7.txt";
 
-        try ( BufferedReader br = new BufferedReader(new FileReader(path6))) {
+        try (BufferedReader br = new BufferedReader(new FileReader(path6))) {
 
             String line = br.readLine();
             while (line != null) {
@@ -371,14 +367,6 @@ public class questao01 {
         } catch (IOException e) {
             System.out.println("Erro: " + e.getMessage());
         }
-
-        System.out.println(
-                "aperte enter para ajudar Isaac ");
-        continua = sc.nextLine();
-
-        System.out.println(
-                "aperte enter  para continuar");
-        continua = sc.nextLine();
 
         do {
 
@@ -414,16 +402,15 @@ public class questao01 {
 
         } while (!tcerto && vida > 0);
 
-        if (vida
-                <= 0) {
+        if (vida <= 0) {
             System.out.println("GAME OVER");
 
             System.exit(vida);
         }
 
-        String path7 = "C:\\Users\\daniel.nsilva20\\ProjetoPi_\\Questao8.txt";
+        String path7 = "C:\\Users\\danie\\ProjetoPi_\\Questao8.txt";
 
-        try ( BufferedReader br = new BufferedReader(new FileReader(path6))) {
+        try (BufferedReader br = new BufferedReader(new FileReader(path6))) {
 
             String line = br.readLine();
             while (line != null) {
@@ -441,12 +428,9 @@ public class questao01 {
 
         System.out.println("Escolha um:");
 
-        System.out.println(
-                "<A> = 1º");
-        System.out.println(
-                "<B> = 2º");
-        System.out.println(
-                "<c> = 3º");
+        System.out.println("<A> = 1º");
+        System.out.println("<B> = 2º");
+        System.out.println("<c> = 3º");
 
         menu = sc.next();
 
@@ -479,7 +463,7 @@ public class questao01 {
         }
         String path8 = "C:\\Users\\daniel.nsilva20\\ProjetoPi_\\Questao9.txt";
 
-        try ( BufferedReader br = new BufferedReader(new FileReader(path8))) {
+        try (BufferedReader br = new BufferedReader(new FileReader(path8))) {
 
             String line = br.readLine();
             while (line != null) {
@@ -500,16 +484,11 @@ public class questao01 {
 
         List alternativas = new ArrayList();
 
-        alternativas.add(
-                "101111");
-        alternativas.add(
-                "101011");
-        alternativas.add(
-                "111010");
-        alternativas.add(
-                "101110");
-        alternativas.add(
-                "101111");
+        alternativas.add("101111");
+        alternativas.add("101011");
+        alternativas.add("111010");
+        alternativas.add("101110");
+        alternativas.add("101111");
         do {
             Collections.shuffle(alternativas);
 
@@ -619,11 +598,9 @@ public class questao01 {
 
         System.out.println("Teste");
         System.out.println();
-        String path9 = "C:\\Users\\daniel.nsilva20\\ProjetoPi_\\Questao10.txt";
-        //C:\Users\daniel.nsilva20\ProjetoPi_
-        Path caminho = Path.of("./Questao10.txt");
+        String path9 = "C:\\Users\\danie\\ProjetoPi_\\Questao10.txt";
 
-        try ( BufferedReader br = new BufferedReader(new FileReader(caminho.toAbsolutePath().toString()))) {
+        try (BufferedReader br = new BufferedReader(new FileReader(path9))) {
 
             String line = br.readLine();
             while (line != null) {
@@ -677,52 +654,27 @@ public class questao01 {
             System.exit(vida);
         }
 
-        System.out.println(
-                "Você se soltou das cordas, mas segure para parecer que ainda continua preso"
-                + "\n chegam mais dois guardas para o escoltá lo até o rei khan"
-                + "\n os guardas abrem a cela e tiram Gandalf da cela"
-                + "\n eles começam a caminhar para o julgamento"
-                + "\n durante o caminho, silêncio absoluto, ninguém fala nada."
-                + "\n até o barulho de um pingo de água se consegue ouvir"
-                + "\n Gandalf por incrível que pareça continua calmo."
-                + "\n chegamos ao julgamento - diz um dos guardas");
+        String path10 = "C:\\Users\\danie\\ProjetoPi_\\Questao11.txt";
 
-        System.out.println(
-                "aperte enter para continuar");
-        continua = sc.nextLine();
+        try (BufferedReader br = new BufferedReader(new FileReader(path10))) {
 
-        System.out.println(
-                "*--Sala de jugamento--*"
-                + "\n as portas se abrem e o rei khan está na sala com mais dois guardas"
-                + "\n Gandalf entra sozinho, na sala ficam 4 pessoas."
-                + "\n o rei khan, dois guardas e Gandalf."
-                + "\n rei khan pergutam quem é Gandalf e o que ele quer com seu reino"
-                + "\n Gandalf diz que ele é apenas mais uma pessoa, mas não que ver injustiça"
-                + "\n ..."
-                + "\n Gandalf solta suas mão levemente"
-                + "\n rei khan não fica surpreso, ja sabia que ele poderia fazer isso, porém não baixa a guarda"
-                + "\n *--A QUALQUER MOMENTO PODE COMEÇAR UMA LUTA--*"
-                + "\n rei khan convida a se juntar a ele"
-                + "\n Gandalf responde sem hesita que não e começa a pensar em contas para atacar o rei...");
+            String line = br.readLine();
+            while (line != null) {
+                String[] vect = line.split(",");
 
-        System.out.println(
-                "O rei tem 2 vidas");
-        System.out.println(
-                "aperte enter para continuar");
-        continua = sc.nextLine();
+                System.out.println(line);
 
-        System.out.println(
-                "Gandalf ja pensa em ataca os guardas para não ter problemas");
+                line = br.readLine();
+            }
+
+            br.close();
+        } catch (IOException e) {
+            System.out.println("Erro: " + e.getMessage());
+        }
 
         boolean cert = false;
 
         do {
-            System.out.println("vocês irão ter que resolver o seguinte cálculo matemático: ");
-
-            System.out.println("<A> 9x²-6x");
-            System.out.println("<B> 6x³-9x ");
-            System.out.println("<C> 9x³+6x");
-            System.out.println("<D> 9x²+9x");
 
             menu = sc.next();
 
@@ -763,23 +715,25 @@ public class questao01 {
 
         }
 
-        System.out.println(
-                "Guardas no chão, hora de lutar contra o rei"
-                + "\n então Gandalf, você é mais fascinante do que parece."
-                + "\n derrubou meu guardas com apenas um golpe. não fique muito confiante"
-                + "\n eles nem eram grande coisa mesmo - disse o rei"
-                + "\n Gandalf não se abala com as palavras e fica Observando o rei Khan"
-                + "\n o rei se irrita e vai para cima de gandalf"
-                + "\n *--Batalha vai começar--*");
+        String path11 = "C:\\Users\\danie\\ProjetoPi_\\Questao12.txt";
+
+        try (BufferedReader br = new BufferedReader(new FileReader(path11))) {
+
+            String line = br.readLine();
+            while (line != null) {
+                String[] vect = line.split(",");
+
+                System.out.println(line);
+
+                line = br.readLine();
+            }
+
+            br.close();
+        } catch (IOException e) {
+            System.out.println("Erro: " + e.getMessage());
+        }
 
         do {
-            System.out.println("Encontre o valor de x."
-                    + "  11x = 11².11³ ");
-
-            System.out.println("<A> x5");
-            System.out.println("<B> x7 ");
-            System.out.println("<C> x11");
-            System.out.println("<D> x0");
 
             menu = sc.next();
 
@@ -819,17 +773,26 @@ public class questao01 {
             System.exit(vida);
 
         }
+        String path12 = "C:\\Users\\danie\\ProjetoPi_\\Questao13.txt";
+
+        try (BufferedReader br = new BufferedReader(new FileReader(path12))) {
+
+            String line = br.readLine();
+            while (line != null) {
+                String[] vect = line.split(",");
+
+                System.out.println(line);
+
+                line = br.readLine();
+            }
+
+            br.close();
+        } catch (IOException e) {
+            System.out.println("Erro: " + e.getMessage());
+        }
         boolean t = false;
 
         do {
-            System.out.println("Gandalf desvio do ataque, hora de contra atacar."
-                    + "\n Simplifique.\n"
-                    + " Reescreva a expressão na forma 5n"
-                    + " 5².5¹");
-
-            System.out.println("<A> 5²");
-            System.out.println("<B> 5¹ ");
-            System.out.println("<C> 5³");
 
             menu = sc.next();
 
@@ -867,25 +830,25 @@ public class questao01 {
 
         }
 
-        System.out.println(
-                "Gandalf começa a ficar cansado..."
-                + "\n O rei fica abalado com o golpe, mas ainda não caiu."
-                + "\n hora de acabar com isso O rei khan começa a fazer contas com os dedos..."
-                + "\n Gandalf olha isso e também começa a fazer uma conta..."
-                + "\n x = -b +- raiz b²-4*a*b"
-                + "\n              2*a"
-                + "\n a formula de bhaskara o golpe mais forte de Gandalf."
-                + "\n hora de usar o que ele aprendeu com o criador"
-                + "\n indo para o tudo ou nada."
-                + "\n se acerta agora você irá acabar com tudo.");
+        String path13 = "C:\\Users\\danie\\ProjetoPi_\\Questao14.txt";
+
+        try (BufferedReader br = new BufferedReader(new FileReader(path13))) {
+
+            String line = br.readLine();
+            while (line != null) {
+                String[] vect = line.split(",");
+
+                System.out.println(line);
+
+                line = br.readLine();
+            }
+
+            br.close();
+        } catch (IOException e) {
+            System.out.println("Erro: " + e.getMessage());
+        }
 
         do {
-            System.out.println("Calcule as raízes da equação 2x2 – 16x – 18 = 0");
-
-            System.out.println("<A> 9,  0");
-            System.out.println("<B> 0, -1");
-            System.out.println("<C> 1, -9");
-            System.out.println("<D> 9, -1");
 
             menu = sc.next();
 
@@ -927,15 +890,23 @@ public class questao01 {
 
         }
 
-        System.out.println(
-                "Gandalf acerta o golpe e derruba o rei, mas está muito debilitado."
-                + "\n o rei Khan e mandando para fora do reino com tamanha força e poder que Gandalf usa"
-                + "\n os guardas que estavão do lado de fora entram paraver o que aconteceu com tamanho barulho"
-                + "\n ficam surpreso que Gandalf derrotou o rei e o veneram, declarando ele como rei."
-                + "\n Gandalf não queria se torna rei, mas acabou se tornando e terá que guia o reino"
-                + "\n Gandalf faz uma escola de matemática chamada Khan Academy e irá leva o povo para a liberdade."
-                + ""
-                + "\n                            F i m");
+        String path15 = "C:\\Users\\danie\\ProjetoPi_\\Questao16.txt";
+
+        try (BufferedReader br = new BufferedReader(new FileReader(path15))) {
+
+            String line = br.readLine();
+            while (line != null) {
+                String[] vect = line.split(",");
+
+                System.out.println(line);
+
+                line = br.readLine();
+            }
+
+            br.close();
+        } catch (IOException e) {
+            System.out.println("Erro: " + e.getMessage());
+        }
         introducao exibir = new introducao();
 
         exibir.mododejogo();
