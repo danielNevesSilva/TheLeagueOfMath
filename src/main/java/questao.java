@@ -18,7 +18,7 @@ public class questao {
         Scanner sc = new Scanner(System.in);
         String menu, continua;
 
-        String path = "C:\\Users\\danie\\ProjetoPi_\\Menu.txt";
+        String path = "C:\\Users\\danie\\ProjetoPi_\\questao1.txt";
 
         try (BufferedReader br = new BufferedReader(new FileReader(path))) {
 
