@@ -461,7 +461,7 @@ public class questao {
                 System.out.println(" Respota invalida \n vidas restantes: " + vida);
 
         }
-        String path8 = "C:\\Users\\daniel.nsilva20\\ProjetoPi_\\Questao9.txt";
+        String path8 = "C:\\Users\\danie\\ProjetoPi_\\Questao9.txt";
 
         try (BufferedReader br = new BufferedReader(new FileReader(path8))) {
 
@@ -584,7 +584,7 @@ public class questao {
 
                 default:
                     vida--;
-                    System.out.println("Respota invalida \n voce perdeu uma vida \n vidas restantes: " + vida + "\nhora de fujir. finjasse de morto ele vai te ignorar para fujir ");
+                    System.out.println("Respota invalida \n voce perdeu uma vida \n vidas restantes: " + vida);
 
             }
 
@@ -907,8 +907,10 @@ public class questao {
         } catch (IOException e) {
             System.out.println("Erro: " + e.getMessage());
         }
-        introducao exibir = new introducao();
 
-        exibir.mododejogo();
+        continua = sc.nextLine();
+        menuJogo exibir = new menuJogo();
+
+        exibir.menu();
     }
 }
