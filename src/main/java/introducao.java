@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class introducao {
 
     public void mododejogo() {
+
         Scanner sc = new Scanner(System.in);
         String continuar;
        String path = "C:\\Users\\danie\\ProjetoPi_\\Introducao.txt";
@@ -21,17 +22,13 @@ public class introducao {
 
                 line = br.readLine();
             }
-
             br.close();
         } catch (IOException e) {
             System.out.println("Erro: " + e.getMessage());
-        }
-
-        System.out.println("Digite enter para volta ao Menu");
+        }        
         continuar = sc.nextLine();
         menuJogo exibir = new menuJogo();
         exibir.menu();
-
     }
 
 }

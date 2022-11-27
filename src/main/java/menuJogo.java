@@ -11,6 +11,7 @@ public class menuJogo {
 
         int opcao;
 
+    //Leitor feito para ler o arquivo de menu do jogo
 
         String path = "C:\\Users\\danie\\ProjetoPi_\\Menu.txt";
 
@@ -29,6 +30,7 @@ public class menuJogo {
         } catch (IOException e) {
             System.out.println("Erro: " + e.getMessage());
         }
+        //Até aqui foi editado
 
         opcao = sc.nextInt();
 
@@ -50,26 +52,19 @@ public class menuJogo {
                 System.out.println("Saindo... ");
 
                 break;
-
             default:
 
                 System.out.println("Nenhuma opção foi selecionada. \n Selecione uma opção");
-
         }
         if (opcao == 1) {
             introducao exibir = new introducao();
             exibir.mododejogo();
-
         } else if (opcao == 2) {
             historiaJogo exibir = new historiaJogo();
             exibir.historia();
         } else if (opcao == 3) {
-
             idealizado exibir = new idealizado();
-
             exibir.creditos();
-
         }
-
     }
 }
