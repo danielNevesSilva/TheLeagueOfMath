@@ -1,12 +1,12 @@
- Gandalf começa a corre pela vila sentido as montanhas, porém tem muitos guardas na vila
- eles veêm ele correndo e vão atrás de Gandalf.
+ Gandalf começa a correr pela vila sentido as montanhas, porém tem muitos guardas na vila
+ eles vêm correndo e vão atrás de Gandalf.
  o número de guardas estar aumentando de forma rápida, você tem que fazer algo para despitalos
  Gandalf continua correndo, logo a frente tem uma feira de roupas, ótima chance para se camuflar
  cuidado, os guardas estão atrás de você
 Aperte enter para continuar
  *--FEIRA DE ROUPAS--*
  Gandalf entra na feira de roupas e tem uma multidão de pessoas, hora de se camuflar. 
- Gandalf estar passando por uma banca de chapeu.
+ Gandalf estar passando por uma banca de chapéu.
  O 1º é um Bowler marrom
  O 2º é um Homburg preto
  O 3º é um Boater de palha
@@ -14,3 +14,6 @@ Escolha um:
 <A> = 1º
 <B> = 2º
 <c> = 3º
+
+
+

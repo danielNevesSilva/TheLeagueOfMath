@@ -10,7 +10,7 @@
  o rei é notificado do ocorrido e fica muito curioso para saber o quem é esse jovem
  o que ele faz, e por que ele está causando tantos problemas.
 aperte enter para continuar
- *--Gandalf no calaboço--**
+ *--Gandalf no calabouço--**
 
  tiram saco da cabeça de Gandalf e ele não se encontra em uma cela
  sem cama, sem água e sem luz.
@@ -32,3 +32,6 @@ Gandalf ta preso e precisa soltar suas mãos para ter chances de lutar contra o r
 <B> 30 
 <C> 32
 <D> 28 
+
+
+

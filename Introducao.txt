@@ -6,7 +6,11 @@
  essas habilidades serão métedos de matemática feitos durante a história
  a historia também contara com a participação de alguns matemáticos famosos da historia
  que ajudaram o Gandalf a ter conceitos de matemática 
-Aperte enter para descobrir como jogar
+
+
  modo de jogar
+
  para jogar você usará apenas o teclado para avançar pelo jogo 
-Digite enter para volta ao Menu
+
+
+ Digite enter para volta ao Menu

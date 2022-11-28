@@ -1,6 +1,6 @@
 "É possível ouvir agora o som de uma cadeira se arrastando, como se alguém tivesse se levantado de uma. Passos vem logo em seguida."
 "Eles vão ficando cada vez mais próximos até que o homem consegue enxergar uma silhueta parada na frente das grades daquele calabouço."
-"- Hmpf... Estou surpreso que ainda consiga falar... Olhe para si mesmo, que situação lamentável."
+"- Hm pf... Estou surpreso que ainda consiga falar... Olhe para si mesmo, que situação lamentável."
 "Quando aquela figura profere essas palavras,
  o homem volta seus olhos para si e vê que está usando apenas trapos para cobrir seu corpo... 
 Com aquelas vestes completamente úmidas, é apenas uma aposta, 
@@ -10,5 +10,7 @@ mas o homem consegue sentir as feridas e escoriações por toda sua pele o fazendo
 "- Hahahaha! Parece que não tem mais forças ao menos para grunhir novamente, não é mesmo?!"
 "Realmente, o homem para por alguns segundos para pensar e nota que está verdadeiramente exausto... 
 Não há forças para se mover ou até mesmo para gritar. O que aconteceu até aqui? Pensou o homem."
-"Ao menos lembra-se de seu nome?"
+"Ao menos lembrasse de seu nome?"
+
+
 

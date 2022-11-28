@@ -4,6 +4,8 @@ Este jogo foi idealizado e pensado pelo alunos do senac. São eles
  Rafael Rasquinho 
  Marcos vinicius 
  Leonardo Freitas 
+
  Nosso grupo escolhemors a materia de Matematica para tecnologia desenvolvimento da informação
  utilizamos como base Khan academy para elaborarmos algumas questões
+
 Aperte enter para descobrir como jogar

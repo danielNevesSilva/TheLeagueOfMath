@@ -1,5 +1,6 @@
 
-*--Gandalf acertou o engimar--*
+*--Gandalf acertou o enigma --*
+
 A porta se abre lentamente, dentro do quarto tem um livro, Gandalf pega o livro rapidamente.
 VOCÊ ADQUIRIU um livro, USE COM SABEDORIA
 hora de sair da biblioteca agora vai ser mais difícil sair
@@ -13,10 +14,13 @@ Guardas 'quem é você, o que está fazendo com esse livro na mão, espere isso é um
  Gandalf pega o livro e abre em uma página aleatória e vê uma fórmula de matemática 
 x = -b +- raiz b²-4*a*b
               2*a
- O poder de Bhaskara, está fórmula foi descoberta, mas ninguem a soube usá-la
+ O poder de Bhaskara, está fórmula foi descoberta, mas ninguém soube usá-la
 Calcule as raízes da equação x2 + 12x – 13 = 0 
 escolha a opção correta
 <A> 13 e 1
 <B> 13 e 9 
 <C> 1 e 18 
 <D> 1 e -13 
+
+
+
